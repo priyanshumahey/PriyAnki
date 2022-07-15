@@ -1,6 +1,6 @@
-import './App.css';
+import './Home.css';
 
-function App() {
+function Homepage() {
   const start = () => {
     return console.log("ButtonWorks")
   }
@@ -15,5 +15,5 @@ function App() {
     </div>
   );
 }
-
-export default App;
+ 
+export default Homepage;
