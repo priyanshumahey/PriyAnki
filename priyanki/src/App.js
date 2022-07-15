@@ -1,25 +1,19 @@
 import './App.css';
-import {BrowserRouter as Router,Routes,Route,Navigate} from "react-router-dom";
-
-//Start Page
-import Start from './Start/Start'
-
-//Home Page
-import Homepage from './Homepage/Home'
-
+import { Link } from "react-router-dom";
 
 function App() {
   const start = () => {
-    return console.log("ButtonWorks")
+    return console.log('Start Button')
   }
-
   return (
     <div className="App">
       <header className="App-header">
         <p>
           Welcome to PriyAnki!
         </p>
-        <button onClick={start}>Start</button>
+        <Link to="/Start"><button onClick={start}> Start</button></Link>
+        <Link to="/Homepage">Homepage</Link>
+        <Link to="/Start">Start</Link>
       </header>
     </div>
   );
