@@ -1,6 +1,10 @@
-import './Home.css';
+import './App.css';
+import {BrowserRouter as Router,Switch,Route,Redirect} from "react-router-dom";
 
-function Homepage() {
+//Start Page
+import Start from './Start/Start'
+
+function App() {
   const start = () => {
     return console.log("ButtonWorks")
   }
@@ -10,10 +14,11 @@ function Homepage() {
         <p>
           Welcome to PriyAnki!
         </p>
+        <Start />
         <button onClick={start}>Start</button>
       </header>
     </div>
   );
 }
  
-export default Homepage;
+export default App;
