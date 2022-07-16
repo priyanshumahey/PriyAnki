@@ -13,3 +13,5 @@ npx create-react-app priyanki
 cd priyanki
 npm i electron
 ```
+
+This build has electron, React, React router, Redux, SQLite3
