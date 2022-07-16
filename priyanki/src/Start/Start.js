@@ -1,8 +1,9 @@
 import "./Start.css"
+ 
 
 function Start () {
     return (
-        <p>Start component!</p>
+        <p className="App">Start component!</p>
     )
 }
 

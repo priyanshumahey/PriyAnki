@@ -11,13 +11,14 @@ import Start from './Start/Start'
 //Home Page
 import Homepage from './Homepage/Home'
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="Homepage" element={<Homepage />} />
       <Route path="Start" element={<Start />} />
+      <Route path="Homepage" element={<Homepage />} />
     </Routes>
   </BrowserRouter>
 );
