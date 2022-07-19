@@ -1,10 +1,18 @@
 import './App.css';
 import { Link } from "react-router-dom";
+import raw from './demo.txt'
+
 
 function App() {
   const start = () => {
-    return console.log('Start Button')
-  }
+    return (
+      fetch(raw)
+        .then(r => r.text())
+        .then(text => {
+        console.log('text decoded:', text);
+    })
+  )}
+  
   return (
     <div className="App">
       <header className="App-header">
