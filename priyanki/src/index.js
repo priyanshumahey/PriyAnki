@@ -12,6 +12,10 @@ import Start from './Start/Start'
 //Home Page
 import Homepage from './Homepage/Home'
 
+//App Structure
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
