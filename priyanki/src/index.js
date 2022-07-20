@@ -13,6 +13,12 @@ import Start from './Start/Start'
 import Homepage from './Homepage/Home'
 
 //App Structure
+//Starts at the Start menu
+//Start -> Homepage
+//Homepage ->
+//            Settings
+//            Notes
+//            Flashcards
 
 
 
