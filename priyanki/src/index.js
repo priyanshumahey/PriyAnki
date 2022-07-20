@@ -19,7 +19,9 @@ import Homepage from './Homepage/Home'
 //            Settings
 //            Notes
 //            Flashcards
-
+//Settings
+//Notes
+//Flashcards
 
 
 
