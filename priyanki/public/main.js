@@ -7,7 +7,7 @@ function createWindow () {
     width: 800,
     height: 600,
     show: true,
-    frame: false,
+    //frame: false,
     resizable: false,
     //transparent: false,
     webPreferences: {
@@ -47,3 +47,10 @@ app.on('activate', () => {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
+
+const store = new Store()
+
+store.set('userSettings.theme', 'light')
+
+console.log('theme:', store.get('userSettings.theme'))
+console.log(app.getPath('userData'))
