@@ -1,10 +1,15 @@
 const { app, BrowserWindow } = require('electron')
+const Store = require('electron-store');
 
 function createWindow () {
   // Create the browser window.
   const win = new BrowserWindow({
     width: 800,
     height: 600,
+    show: true,
+    frame: false,
+    resizable: false,
+    //transparent: false,
     webPreferences: {
       nodeIntegration: true
     }
