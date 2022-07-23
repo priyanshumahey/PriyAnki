@@ -14,8 +14,4 @@ cd priyanki
 npm i electron
 ```
 
-This build has electron, React, React router, Redux, SQLite3*
-
-**Switched to better-sqlite3
-
-Isues with better-sqlite3: https://github.com/WiseLibs/better-sqlite3/blob/HEAD/docs/troubleshooting.md
+This build has electron, React, React router
